@@ -1,4 +1,4 @@
-var playlist = {'Jorja Smith': 'On Your Own'};
+var playlist = {artist: playlist};
 
 function updatePlaylist(playlist,artist,songtitle){
   playlist.artist = songtitle;
