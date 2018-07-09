@@ -1,7 +1,7 @@
 var playlist = {'Jorja Smith': 'Blue Lights'};
 
 function updatePlaylist(playlist,artist,songtitle){
-  playlist.artist = songtitle;
+  playlist[artist] = songtitle;
   return playlist;
 }
 
